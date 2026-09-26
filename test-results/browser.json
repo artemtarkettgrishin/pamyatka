@@ -1,0 +1,8 @@
+{
+  "passed": 6,
+  "errors": [],
+  "stats": {
+    "writes": 9,
+    "reads": 15
+  }
+}

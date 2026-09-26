@@ -1,0 +1,6 @@
+PASS: two editors + viewer, independent cells merge and live update without reload
+PASS: direct sheet edit reaches a live viewer and editor without reload
+PASS: typing during save preserved
+PASS: same-cell conflict retains one durable draft
+PASS: viewer is read-only; no browser exceptions
+PASS: admin creates and renames custom IDs; mobile table precedes decors

@@ -1,0 +1,63 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> react-vite-tailwind@10.0.0 test
+> node scripts/build-backend.mjs && node --test tests/*.test.mjs
+
+✔ all supplied demo data meets schema and metadata survives (320.012041ms)
+✔ content comparison notices a price change with identical row counts (194.92701ms)
+✔ different cells merge; same cell conflicts; same value converges (263.914877ms)
+✔ simultaneous row additions are retained (82.546673ms)
+✔ delete versus edit conflicts; concurrent reorder conflicts (250.736365ms)
+✔ invalid cycles, duplicate IDs, dangling references and hostile keys rejected (216.624112ms)
+✔ anonymous writes, wrong passwords, forged tokens and mail action rejected (186.498946ms)
+✔ CAS prevents stale overwrite, independent edits merge and commit (574.007491ms)
+✔ identical request replay is idempotent even after later commits (521.323298ms)
+✔ write and pointer failures preserve last committed snapshot (462.785982ms)
+✔ lightweight version check avoids reading catalog and releases locks (196.638077ms)
+✔ empty catalog stays empty, initialization cannot replace a populated table (50.357402ms)
+✔ password rotation invalidates existing sessions (85.334619ms)
+✔ legacy source is retained byte for byte by setup (138.043951ms)
+✔ login rate limit rejects excessive attempts (6.441388ms)
+✔ original JSX structure, CSS classes, styles and HTML shell preserved (320.089637ms)
+✔ two independent devices preserve changes to different cells (1007.449572ms)
+✔ same-cell conflict remains a durable draft and is not auto-overwritten (591.580722ms)
+✔ edits during an in-flight request remain dirty and get a second write (533.275939ms)
+✔ server commit followed by network loss safely replays after reload (397.637472ms)
+✔ pending draft survives offline reload and viewers cannot write it (514.692393ms)
+✔ late read cannot replace newer local typing or newer revisions (493.825677ms)
+✔ reconnect and manual flush cannot create parallel writes (324.697665ms)
+✔ expired sessions stop writes without deleting draft (105.071229ms)
+✔ dirty drafts cannot be moved to a different table (105.813492ms)
+✔ four editors converge without losing any independent edit (1223.911347ms)
+✔ native sheets contain top menu, separate menu at every level, products and independent journals (629.400435ms)
+✔ direct cell edits, zero and clearing propagate without resurrection or extra revisions (558.815008ms)
+✔ one app price change uses one atomic write batch and never rewrites unrelated product cells (347.851031ms)
+✔ 100 unchanged viewer polls perform zero catalog batch reads and zero writes (206.512857ms)
+✔ 50 newly connected viewers share transient cache, cache eviction does not lose data (236.221337ms)
+✔ sheet edit before delayed trigger is detected before app CAS and independent fields merge (596.153476ms)
+✔ sheet and app edits to one cell remain a detectable conflict (407.932285ms)
+✔ new product gets ID once; explicit custom ID is also retained (313.498942ms)
+✔ custom menu IDs and children create separate sheets recursively (518.226013ms)
+✔ editing menu ID and title preserves sheet identity, products and child references (343.090384ms)
+✔ duplicate menu IDs and cycles do not overwrite sheet input or accept app saves (190.983598ms)
+✔ adding columns and renaming their keys preserves product values and stabilizes revision (440.752201ms)
+✔ direct notes and independent journals each appear on their own tab (423.47184ms)
+✔ explicit row delete and physical row removal are reflected without resurrection (313.140117ms)
+✔ physical sorting does not cross-link values and explicit order changes app order (213.485108ms)
+✔ bulk paste and formula-looking strings are stored as plain cell values (314.903705ms)
+✔ unfinished new rows are preserved across unrelated app saves (195.788226ms)
+✔ failed atomic write leaves rows and revision unchanged; lost response replays once (310.554061ms)
+✔ v9 migration imports pending sheet edits and never modifies old JSON snapshots (137.54087ms)
+✔ migration retry after atomic failure retains original data and does not create duplicates (142.550556ms)
+✔ missing sheet fails clearly and maintenance recovers a delayed edit after lock contention (170.104503ms)
+✔ guard detects a changed cell or row identity between batch read and write (277.259351ms)
+✔ clearing the parent ID moves an existing submenu entry to the main menu (178.102832ms)
+✔ migration survives losing the successful API response (119.28182ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8860.029738
