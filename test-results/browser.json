@@ -1,0 +1,5 @@
+{
+  "status": "blocked",
+  "reason": "Chromium socket() failed: Operation not permitted",
+  "live_google_tested": false
+}

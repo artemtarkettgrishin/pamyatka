@@ -1,0 +1,82 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> react-vite-tailwind@11.0.0 test
+> node scripts/build-backend.mjs && node --test tests/*.test.mjs
+
+{"engineVersion":11,"revision":2,"categories":43,"rows":138,"sheets":90}
+✔ upgrade an existing v10 workbook in place without setup or any cell writes (435.226674ms)
+✔ v10 server can read and edit a workbook last saved by engine v11 (350.443648ms)
+✔ all supplied demo data meets schema and metadata survives (209.359971ms)
+✔ content comparison notices a price change with identical row counts (132.529308ms)
+✔ different cells merge; same cell conflicts; same value converges (196.844831ms)
+✔ simultaneous row additions are retained (83.49913ms)
+✔ delete versus edit conflicts; concurrent reorder conflicts (129.092871ms)
+✔ invalid cycles, duplicate IDs, dangling references and hostile keys rejected (188.4709ms)
+✔ anonymous writes, wrong passwords, forged tokens and mail action rejected (112.5188ms)
+✔ CAS prevents stale overwrite, independent edits merge and commit (520.700563ms)
+✔ identical request replay is idempotent even after later commits (352.710334ms)
+✔ write and pointer failures preserve last committed snapshot (249.511034ms)
+✔ lightweight version check avoids reading catalog and releases locks (167.12737ms)
+✔ empty catalog stays empty, initialization cannot replace a populated table (55.50076ms)
+✔ password rotation invalidates existing sessions (81.597518ms)
+✔ legacy source is retained byte for byte by setup (94.509879ms)
+✔ login rate limit rejects excessive attempts (2.975689ms)
+{"engineVersion":11,"revision":2,"categories":43,"rows":138,"sheets":90}
+✔ delta round trip preserves additions, deletes, order, settings, zero and cleared fields (273.255126ms)
+✔ malformed deltas are rejected without mutating source (154.039668ms)
+✔ new save protocol changes only one category and acknowledges normalized data (261.538983ms)
+✔ read deltas support skipped revisions; old viewers still receive full catalog (279.145291ms)
+✔ evicted history falls back to full read; partial current cache never yields partial data (167.887951ms)
+✔ delta receipt survives lost response and cache eviction without applying twice (256.072932ms)
+✔ untriggered sheet change conflicts with stale delta and remains intact (180.558829ms)
+✔ cache bulk operations replace loops and cache outage cannot make Sheets unavailable (110.262935ms)
+✔ v11 preflight makes zero writes and preserves all sheet names, values and revision (81.636057ms)
+✔ metadata and row lookups avoid legacy per-sheet scans during save (159.495358ms)
+✔ original JSX structure, CSS classes, styles and HTML shell preserved (142.734168ms)
+✔ all v10 UI components, stylesheet and HTML shell remain byte-identical (1.787865ms)
+✔ two independent devices preserve changes to different cells (575.329258ms)
+✔ same-cell conflict remains a durable draft and is not auto-overwritten (424.240702ms)
+✔ edits during an in-flight request remain dirty and get a second write (375.28278ms)
+✔ server commit followed by network loss safely replays after reload (263.8879ms)
+✔ pending draft survives offline reload and viewers cannot write it (217.814655ms)
+✔ late read cannot replace newer local typing or newer revisions (208.383236ms)
+✔ reconnect and manual flush cannot create parallel writes (253.023051ms)
+✔ expired sessions stop writes without deleting draft (107.744469ms)
+✔ dirty drafts cannot be moved to a different table (79.663277ms)
+✔ four editors converge without losing any independent edit (708.081479ms)
+✔ four protocol-11 editors send deltas and preserve independent edits (699.11298ms)
+✔ persisted delta body is identical after ambiguous failure and reload (184.053654ms)
+✔ new client falls back to complete saves with a version-10 server (210.7327ms)
+✔ protocol-11 same-cell conflict keeps the second editor draft (271.787186ms)
+✔ native sheets contain top menu, separate menu at every level, products and independent journals (382.022337ms)
+✔ direct cell edits, zero and clearing propagate without resurrection or extra revisions (407.139658ms)
+✔ one app price change uses one atomic write batch and never rewrites unrelated product cells (244.929351ms)
+✔ 100 unchanged viewer polls perform zero catalog batch reads and zero writes (114.436605ms)
+✔ 50 newly connected viewers share transient cache, cache eviction does not lose data (342.411773ms)
+✔ sheet edit before delayed trigger is detected before app CAS and independent fields merge (345.207495ms)
+✔ sheet and app edits to one cell remain a detectable conflict (202.966051ms)
+✔ new product gets ID once; explicit custom ID is also retained (255.754724ms)
+✔ custom menu IDs and children create separate sheets recursively (339.959899ms)
+✔ editing menu ID and title preserves sheet identity, products and child references (142.248267ms)
+✔ duplicate menu IDs and cycles do not overwrite sheet input or accept app saves (118.835074ms)
+✔ adding columns and renaming their keys preserves product values and stabilizes revision (199.169789ms)
+✔ direct notes and independent journals each appear on their own tab (216.388516ms)
+✔ explicit row delete and physical row removal are reflected without resurrection (158.220376ms)
+✔ physical sorting does not cross-link values and explicit order changes app order (118.924968ms)
+✔ bulk paste and formula-looking strings are stored as plain cell values (132.526643ms)
+✔ unfinished new rows are preserved across unrelated app saves (108.159248ms)
+✔ failed atomic write leaves rows and revision unchanged; lost response replays once (186.85833ms)
+✔ v9 migration imports pending sheet edits and never modifies old JSON snapshots (61.73545ms)
+✔ migration retry after atomic failure retains original data and does not create duplicates (89.635786ms)
+✔ missing sheet fails clearly and maintenance recovers a delayed edit after lock contention (118.728051ms)
+✔ guard detects a changed cell or row identity between batch read and write (164.908009ms)
+✔ clearing the parent ID moves an existing submenu entry to the main menu (112.004463ms)
+✔ migration survives losing the successful API response (78.450742ms)
+ℹ tests 67
+ℹ suites 0
+ℹ pass 67
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5267.843086
