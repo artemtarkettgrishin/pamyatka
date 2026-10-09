@@ -1,0 +1,27 @@
+{
+  "fixture": "synthetic, not live Google timing",
+  "categories": 43,
+  "productRows": 1294,
+  "allSheets": 170,
+  "workingSheets": 90,
+  "save": {
+    "metadataRequests": 1,
+    "catalogAndGuardBatchReads": 2,
+    "atomicWriteBatches": 1
+  },
+  "saveRequestBytes": {
+    "v10": 560385,
+    "v11": 15626,
+    "reductionPercent": 97.21
+  },
+  "saveResponseBytes": {
+    "v10": 560235,
+    "v11": 179,
+    "reductionPercent": 99.97
+  },
+  "readResponseBytes": {
+    "v10": 560253,
+    "v11": 15497,
+    "reductionPercent": 97.23
+  }
+}
